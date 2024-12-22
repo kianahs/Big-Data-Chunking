@@ -1,4 +1,4 @@
-# Problem - 3
+# Problem - Partitioning Big Data using PySpark (Automation)
 
 This project aims to chunk a given large .tsv file into smaller partitions based on some conditions using PySpark.
 
