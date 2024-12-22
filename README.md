@@ -1,6 +1,6 @@
 # Problem - 3
 
-For clarity and organization, my commits are stored in a separate repository. If you need access, please email me at hadysadegh@gmail.com, and I will grant you access.
+This project aims to chunk a given large .tsv file into smaller partitions based on some conditions using PySpark.
 
 ## Running the Solution
 
@@ -14,7 +14,7 @@ To execute the solution, follow these steps:
    Suggestion: for files larger than 1GB num_proc >= file_size MB / 128 MB
 
    ```bash
-   python3 splitWithSpark.py --id_col '"filename"' --max_rows 3 --header True --num_proc 5 --input_file shared/sample-data/sample.tsv --output_dir shared/sample-output
+   python3 splitWithSpark.py --id_col '"filename"' --max_rows 3 --header True --num_proc 5 --input_file input_dir/your_tsv_file_name.tsv --output_dir output_dir/output_folder
    ```
 
 ### Explanation of Parameters
